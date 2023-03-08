@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0926%2Fr1067234_1296x729_16%2D9.jpg");
+    font-family: 'Pirata One', cursive;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.score {
+    text-align: center;
+    background: black;
+    border-radius: 5px;
+    width: 150px;
+    color: #d00000;
+    margin: 21px auto 26px auto;
+    padding: 20px 8px 10px 8px;
+    font-size: 90px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #004AAD;
+    border: 10px solid red;
+    border-radius: 25%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 30px;
+}
+.score-con{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25%;
+    font-family: 'Pirata One', cursive;
+    cursor:pointer;
+    text-align: center;
+    
+}
+.out{
+    padding: 20px 40px;
+    max-width: 500px;
+}
+#reset
+{
+    align-content: center;
+    justify-content: center
+}
